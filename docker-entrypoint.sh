@@ -15,4 +15,4 @@ CONFIG="$JSTORM_HOME/conf/storm.yaml"
 echo "storm.zookeeper.servers:" $1 >> "$CONFIG"
 echo "nimbus.host:" $2 >> "$CONFIG"
 #echo $3
-#exec "$3"
+exec "$3"
